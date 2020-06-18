@@ -3265,11 +3265,6 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-crypto-js@^3.1.9-1:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
-  integrity sha512-DIT51nX0dCfKltpRiXV+/TVZq+Qq2NgF4644+K7Ttnla7zEzqc+kjJyiB96BHNyUTBxyjzRcZYpUdZa+QAqi6Q==
-
 css-blank-pseudo@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/css-blank-pseudo/-/css-blank-pseudo-0.1.4.tgz#dfdefd3254bf8a82027993674ccf35483bfcb3c5"
@@ -8659,11 +8654,6 @@ react-error-overlay@^6.0.7:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
 
-react-github-login@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/react-github-login/-/react-github-login-1.0.3.tgz#e3fdc29c1162ecc0704d9fe6096c69d6f53315e7"
-  integrity sha1-4/3CnBFi7MBwTZ/mCWxp1vUzFec=
-
 react-google-login@^5.1.20:
   version "5.1.20"
   resolved "https://registry.yarnpkg.com/react-google-login/-/react-google-login-5.1.20.tgz#06afbf5fd9013455ae3bfba93054630df203542d"
@@ -8776,13 +8766,6 @@ react-scripts@3.4.1:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.1.2"
-
-react-twitter-login@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/react-twitter-login/-/react-twitter-login-1.1.2.tgz#9da1c4a4347a7cd1e7ef9edad09b08a8b2935ed2"
-  integrity sha512-iQxYSGN6++k46emQNm0EUuvYQkkwmX0kjwBAQah4tNakJGYkf+AgDjC0/PjVwzlt4LCNsxNmGIQJtYluCwBAMQ==
-  dependencies:
-    crypto-js "^3.1.9-1"
 
 react@^16.13.1:
   version "16.13.1"
