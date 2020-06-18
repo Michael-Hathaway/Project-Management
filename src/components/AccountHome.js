@@ -1,11 +1,11 @@
 import React from "react";
 
-import SignOutButton from "./SignOutButton";
+import NavBar from "./NavBar";
 
 const AccountHome = (props) => {
   return (
     <div>
-      <SignOutButton />
+      <NavBar />
     </div>
   );
 };

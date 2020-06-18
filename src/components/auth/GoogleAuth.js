@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { googleAuthSignIn } from "../../actions/auth";
 
 const clientID =
-  "125281184698-oujvnvtkgjholu0r2902io7a4fuade8i.apps.googleusercontent.com";
+  "419789989171-9fbff3l157pmc96f0k2vhtofgemudu47.apps.googleusercontent.com";
 
 const GoogleAuth = (props) => {
   return (

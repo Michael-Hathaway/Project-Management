@@ -16,7 +16,6 @@ class FormField extends React.Component {
           {...input}
           type={this.props.fieldType}
           placeholder={this.props.fielName}
-          autoComplete="off"
           required
         />
         {this.renderFormError(meta)}
