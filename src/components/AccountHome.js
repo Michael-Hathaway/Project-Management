@@ -1,7 +1,13 @@
 import React from "react";
 
+import SignOutButton from "./SignOutButton";
+
 const AccountHome = (props) => {
-  return <div>Home Page</div>;
+  return (
+    <div>
+      <SignOutButton />
+    </div>
+  );
 };
 
 export default AccountHome;

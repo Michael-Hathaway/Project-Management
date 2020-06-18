@@ -1,2 +1,4 @@
-export const SIGN_IN = "SIGN_IN";
+export const DEFAULT_SIGN_IN = "SIGN_IN";
+export const GOOGLE_AUTH_SIGN_IN = "GOOGLE_AUTH_SIGN_IN";
+export const GOOGLE_AUTH_SIGN_OUT = "GOOGLE_AUTH_SIGN_OUT";
 export const SIGN_OUT = "SIGN_OUT";

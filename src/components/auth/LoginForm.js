@@ -3,10 +3,11 @@ import { connect } from "react-redux";
 import { reduxForm } from "redux-form";
 
 import FormField from "./FormField";
+import { userSignIn } from "../../actions/auth";
 
 class LoginForm extends React.Component {
   handleFormSubmit(formValues) {
-    console.log(formValues);
+    this.props.userSignIn(formValues);
   }
 
   render() {
@@ -43,4 +44,4 @@ const wrappedForm = reduxForm({
   validate: validateUserInput,
 })(LoginForm);
 
-export default connect(null, {})(wrappedForm);
+export default connect(null, { userSignIn })(wrappedForm);

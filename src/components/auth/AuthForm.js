@@ -6,7 +6,9 @@ const AuthForm = (props) => {
   return (
     <div className="auth-wrapper">
       {props.header}
-      <GoogleAuth />
+      <div className="auth-alt">
+        <GoogleAuth />
+      </div>
       <hr className="divider" />
       {props.form}
     </div>

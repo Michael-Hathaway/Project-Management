@@ -4,10 +4,10 @@ import { Router, Route, Switch } from "react-router-dom";
 import "../style/App.css";
 
 import history from "../history";
+import PrivateRoute from "./auth/PrivateRoute";
 import LoginPage from "./auth/LoginPage";
 import RegisterPage from "./auth/RegisterPage";
 import AccountHome from "./AccountHome";
-import PrivateRoute from "./auth/PrivateRoute";
 
 const App = () => {
   return (
