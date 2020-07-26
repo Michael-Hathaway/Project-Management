@@ -1,4 +1,3 @@
-## PROJECT MANAGEMENT APP -- In Progress
+## Kanba Board Client Side -- In Progress
 
-<p>This is a project management app built using a React/Redux frontend and a
-Django Rest Framework backend. </p>
+<p>This is a Kanban board app built using a React/Redux frontend. Backend not implemented yet.</p>
