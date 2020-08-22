@@ -13,7 +13,7 @@ const GoogleAuth = (props) => {
         className="auth-alt-option"
         clientId={clientID}
         buttonText="Sign in with Google"
-        onSuccess={(res) => props.googleAuthSignIn(res)} //
+        onSuccess={(res) => props.googleAuthSignIn(res)}
         onFailure={(res) => console.log(res)}
       />
     </React.Fragment>

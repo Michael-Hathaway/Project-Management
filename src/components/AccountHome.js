@@ -1,11 +1,12 @@
 import React from "react";
 
 import NavBar from "./NavBar";
+import Board from "./Board";
 
 const AccountHome = (props) => {
   return (
     <div>
-      <NavBar />
+      <Board />
     </div>
   );
 };

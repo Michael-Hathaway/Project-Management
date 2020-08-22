@@ -21,11 +21,13 @@
   --grey-white: #e4e4e5;
   --light-grey: #a5adc2;
 
-  --background-image: linear-gradient(
+  /* --background-image: linear-gradient(
     to top right,
     var(--blue),
     var(--soft-blue-purple)
-  );
+  ); */
+
+  --background-image: linear-gradient(to top right, #ff5f6d, #ffc371);
 
   font-family: "Source Sans Pro", sans-serif;
 }
