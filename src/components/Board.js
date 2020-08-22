@@ -1,14 +1,17 @@
 import React from "react";
-import "./List";
+import List from "./List";
+import NavBar from "./NavBar";
 
 import "../style/Board.css";
-import List from "./List";
 
 class Board extends React.Component {
   render() {
     return (
       <div className="board">
-        <List />
+        <NavBar />
+        <div className="list-wrapper">
+          <List />
+        </div>
       </div>
     );
   }
