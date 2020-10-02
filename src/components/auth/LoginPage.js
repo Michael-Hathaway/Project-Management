@@ -5,6 +5,7 @@ import AuthForm from "./AuthForm";
 import AuthFormHeader from "./AuthFormHeader";
 import LoginForm from "./LoginForm";
 import AuthPageHeader from "./AuthPageHeader";
+import GoogleAuth from "./GoogleAuth";
 
 const LoginPage = () => {
   return (
@@ -16,6 +17,7 @@ const LoginPage = () => {
         </AuthPageHeader>
         <AuthForm
           header={<AuthFormHeader header="Sign in" />}
+          googleAuth={<GoogleAuth title="Login" />}
           form={<LoginForm />}
         />
       </div>

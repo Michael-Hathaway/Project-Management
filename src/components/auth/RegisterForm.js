@@ -1,11 +1,15 @@
 import React from "react";
 import { connect } from "react-redux";
 import { reduxForm } from "redux-form";
+import { defaultRegistration } from "../../actions/auth";
 import FormField from "./FormField";
 
 class RegisterForm extends React.Component {
   handleFormSubmit(formValues) {
     console.log(formValues);
+    // dispatch event to check if the user exists / create
+    // new account if not
+    this.props.defaultRegistration(formValues);
   }
 
   render() {
@@ -44,4 +48,4 @@ const wrappedForm = reduxForm({
   validate: validateUserInput,
 })(RegisterForm);
 
-export default connect(null, {})(wrappedForm);
+export default connect(null, { defaultRegistration })(wrappedForm);

@@ -12,7 +12,7 @@ const GoogleAuth = (props) => {
       <GoogleLogin
         className="auth-alt-option"
         clientId={clientID}
-        buttonText="Sign in with Google"
+        buttonText={`${props.title} with Google`}
         onSuccess={(res) => props.googleAuthSignIn(res)}
         onFailure={(res) => console.log(res)}
       />

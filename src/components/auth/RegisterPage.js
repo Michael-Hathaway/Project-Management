@@ -5,6 +5,7 @@ import AuthForm from "./AuthForm";
 import AuthFormHeader from "./AuthFormHeader";
 import AuthPageHeader from "./AuthPageHeader";
 import RegisterForm from "./RegisterForm";
+import GoogleAuth from "./GoogleAuth";
 
 const RegisterPage = (props) => {
   return (
@@ -15,6 +16,7 @@ const RegisterPage = (props) => {
           <p>Already have an account?</p>
         </AuthPageHeader>
         <AuthForm
+          googleAuth={<GoogleAuth title="Register" />}
           header={<AuthFormHeader header="Register" />}
           form={<RegisterForm />}
         />
